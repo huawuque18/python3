@@ -2,11 +2,13 @@ import sys
 import time
 import os
 
+#print默认是换行的，不需要换行print(end"")
 print('================Python import mode==========================')
 print ('命令行参数为:')
 for i in sys.argv:
     print (i)
 print ('\n python 路径为',sys.path)
+
 print('\n')
 print(os.getcwd())
 print(os.path)
