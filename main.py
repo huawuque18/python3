@@ -37,5 +37,3 @@ num2=12
 #word= input("请输入把：")
 #print(word[0:2],word[2])
 
-
-哈哈哈
