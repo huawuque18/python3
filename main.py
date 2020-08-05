@@ -1,12 +1,13 @@
+
 import sys
 import time
+import os
 print('================Python import mode==========================')
 print ('命令行参数为:')
 for i in sys.argv:
     print (i)
 print ('\n python 路径为',sys.path)
 print('\n')
-import os
 print(os.getcwd())
 print(os.path)
 print(os.stat('main.py'))
@@ -17,7 +18,7 @@ print(os.extsep)
 
 print(repr(os.linesep))
 print(time.time())
-print(os.path.getmtime())
+print(os.path.getatime("main.py"))
 
 
 '''
@@ -37,3 +38,5 @@ num2=12
 #word= input("请输入把：")
 #print(word[0:2],word[2])
 
+
+#11:04时间commit
